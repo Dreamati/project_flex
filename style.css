@@ -2,6 +2,8 @@
 body {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+
 }
 .cld_bdy {
     padding: 0px 100px;
@@ -11,6 +13,11 @@ button {
     color: white
     
 
+}
+.bet_head_foot {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 850px;
 }
 /*Header Content starts Here*/
 
@@ -92,10 +99,27 @@ a {
     
 }
 .cld_bdy.img_prods img {
-    height: 90px;
+    height: 120px;
+    padding: 8px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
 }
 .img_prod_container {
-    width: 600px;
+    width: 700px;
     display: flex;
     justify-content: center;
+    gap: 5px;
+}
+.img_prod_container .img_txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img_prod_container .img_txt p {
+    text-align: center;
+}
+
+/*This is Footer*/
+.footer {
+    
 }
