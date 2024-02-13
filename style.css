@@ -183,6 +183,10 @@ a {
 .cta_txt {
     color: white;
 }
+.CTA_box button {
+    border: 2px solid white;
+    border-radius: 10px;
+}
 /*This is Footer*/
 .footer {
     background-color: #e5e7eb;
